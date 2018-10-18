@@ -17,8 +17,6 @@ body {
     background:rgba(125,0,55,1);
 }
 
-.navbar-brand {
-    background-color: #007bff;
     
 }
 @media (min-width: 768px) {
@@ -47,4 +45,22 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+.jumbotron {
+    background:#000;
+    background-image:url(img/background-pattern.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size:100%;
+}
+
+.card img{
+    filter: grayscale(1);
+    transform: scale(1)
+    transition: all ease .5s;
+}
+.card:hover img{
+    filter: grayscale(0);
+    transform: scale(1);
 }
